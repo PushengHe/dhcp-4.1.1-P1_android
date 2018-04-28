@@ -1,0 +1,7 @@
+1.Introduction to ISC DHCP
+The ISC DHCP package contains both the client and server programs for DHCP. dhclient (the client) is used for connecting to a network which uses DHCP to assign network addresses. dhcpd (the server) is used for assigning network addresses on private networks.
+
+2.Short Descriptions
+dhclient is the implementation of the DHCP client.
+dhclient-script is used by dhclient to (re)configure interfaces. It can make extra changes by invoking custom dhclient-{entry,exit}-hooks.
+dhcpd implements Dynamic Host Configuration Protocol (DHCP) and Internet Bootstrap Protocol (BOOTP) requests for network addresses.
